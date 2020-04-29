@@ -24,6 +24,10 @@ The endpoint is available under: e.g. http://127.0.0.1:8000/shop/summary/?date=2
 
 > Note: The date is a string in the format YYYmmdd
 
+You will need to import the data before you use it e.g.
+
+`python manage.py import_data -d shop/data/`
+
 ## Tests
 
 Basic test for single case (should have more but ran out of time)
